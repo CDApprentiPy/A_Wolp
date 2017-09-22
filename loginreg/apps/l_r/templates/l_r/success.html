@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>success</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'l_r/style.css' %}" media="screen" title="no title"  charset="utf-8">        
+    </head>
+    <body>
+        <h3>{{message}} {{ first_name }}</h3>
+        <h2><a href="{% url 'peace' %}">Log out</a></h2>
+    </body>
+</html>
